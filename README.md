@@ -45,7 +45,16 @@ pip install -r requirements.txt
 cd scripts
 python3 main.py --last-minutes 10
 python3 main.py --start "2025-05-15 08:00:00" --end "2025-05-15 09:00:00"
+
+# Generate Report Only
+python3 report_generator.py --last-minutes 10
+
+# Run Portable Version + Generate Repor
+python3 main_portable.py --last-minutes 5
 ```
+<img width="633" alt="image" src="https://github.com/user-attachments/assets/962cc1d9-b9e5-4d0d-900b-0656d3043395" />
+
+
 
 ## 🛠 PostgreSQL Table Schema
 
