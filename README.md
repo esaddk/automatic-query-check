@@ -1,4 +1,4 @@
-# Automatic Query Check (MySQL)
+# Automatic Query Check
 
 This is project to automate query analysis before deploying to production. It collects query logs, parses them, runs EXPLAIN, and stores structured analysis results to PostgreSQL for dashboarding in Metabase.
 
